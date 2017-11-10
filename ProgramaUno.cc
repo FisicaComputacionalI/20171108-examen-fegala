@@ -1,3 +1,6 @@
+//Fernando Garza Landa
+//20/06/1996
+//El valor de P fué de 20
 #include <iostream>
 using namespace std;
 
@@ -19,13 +22,13 @@ int main (){
   int p=0;
   int flag=0;
 
-  cout << "Dame un nÃºmero entero" << endl;
+  cout << "Dame un numero entero" << endl;
   cin >> p;
 
  while (S!=0){ 
    cout << "ciclo S!=0, S " << S << ",p " << p << endl;
    while(p<S){
-       cout << "ciclo p<S, S " < S << ",p " << p << endl;
+       cout << "ciclo p<S, S " << S << ",p " << p << endl;
 
     while(isPrime(p)==1){
       cout << "ciclo isPrime, S " << S << ",p " << p << endl;
@@ -37,12 +40,12 @@ int main (){
     }  
     
     S=S-p;
-    p=p+2
+    p=p+2;
     cout << "final ciclo p<S, S " << S << ",p " << p << endl;
    }
 
   S=S-1;
-  cout < "final ciclo S!=0, S " << S << ",p " << p << endl;
+  cout << "final ciclo S!=0, S " << S << ",p " << p << endl;
  }
   
   cout << " el valor de P es " << p << endl;
